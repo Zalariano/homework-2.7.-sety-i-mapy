@@ -47,10 +47,6 @@ public class Main {
                 dubli.put(slovo, dubli.get(slovo) + 1);
             }
         }
-        for (Map.Entry<String,Integer> e :dubli.entrySet()) {
-            if (e.getValue() > 1){
-                System.out.println(e);
-            }
-        }
+        System.out.println(dubli);
     }
 }
